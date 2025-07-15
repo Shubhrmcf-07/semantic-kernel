@@ -98,6 +98,7 @@
     <Project Path="src/Agents/Bedrock/Agents.Bedrock.csproj" />
     <Project Path="src/Agents/Copilot/Agents.CopilotStudio.csproj" />
     <Project Path="src/Agents/Core/Agents.Core.csproj" />
+    <Project Path="src/Agents/LogicApp/Agents.LogicApp.csproj" />
     <Project Path="src/Agents/Magentic/Agents.Magentic.csproj" />
     <Project Path="src/Agents/OpenAI/Agents.OpenAI.csproj" />
     <Project Path="src/Agents/Orchestration/Agents.Orchestration.csproj" />
@@ -118,6 +119,8 @@
     <Project Path="src/Connectors/Connectors.Amazon/Connectors.Amazon.csproj" />
     <Project Path="src/Connectors/Connectors.AzureAIInference.UnitTests/Connectors.AzureAIInference.UnitTests.csproj" />
     <Project Path="src/Connectors/Connectors.AzureAIInference/Connectors.AzureAIInference.csproj" />
+    <Project Path="src/Connectors/Connectors.AzureLogicApps.UnitTests/Connectors.AzureLogicApps.UnitTests.csproj" />
+    <Project Path="src/Connectors/Connectors.AzureLogicApps/Connectors.AzureLogicApps.csproj" />
     <Project Path="src/Connectors/Connectors.AzureOpenAI.UnitTests/Connectors.AzureOpenAI.UnitTests.csproj" />
     <Project Path="src/Connectors/Connectors.AzureOpenAI/Connectors.AzureOpenAI.csproj" />
     <Project Path="src/Connectors/Connectors.Google.UnitTests/Connectors.Google.UnitTests.csproj" />

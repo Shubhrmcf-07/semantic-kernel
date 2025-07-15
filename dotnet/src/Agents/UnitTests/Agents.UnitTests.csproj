@@ -46,6 +46,7 @@
     <ProjectReference Include="..\Core\Agents.Core.csproj" />
     <ProjectReference Include="..\Copilot\Agents.CopilotStudio.csproj" />
     <ProjectReference Include="..\OpenAI\Agents.OpenAI.csproj" />
+    <ProjectReference Include="..\LogicApp\Agents.LogicApp.csproj" />
     <ProjectReference Include="..\Magentic\Agents.Magentic.csproj" />
     <ProjectReference Include="..\Orchestration\Agents.Orchestration.csproj" />
     <ProjectReference Include="..\Runtime\Abstractions\Runtime.Abstractions.csproj" />
