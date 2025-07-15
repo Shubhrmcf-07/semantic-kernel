@@ -23,13 +23,14 @@ internal class Workflow
         _doc = JsonSerializer.Deserialize<WorkflowSchema>(File.ReadAllText(_workflowJsonPath));
     }
 
-    public void CreateAgent(string agentName, string referenceName, string deploymentId, string systemPrompt)
+    public IAction CreateAgent(string agentName, string referenceName, string deploymentId, string systemPrompt)
     {
         var key = agentName.Replace(" ", "_");
 
         var action = new AgentAction
         {
-            inputs = new Inputs
+            type = "Agent",
+            inputs = new AgentInputs
             {
                 parameters = new Parameters
                 {
@@ -50,5 +51,7 @@ internal class Workflow
         File.WriteAllText(
         _workflowJsonPath,
         JsonSerializer.Serialize(_doc, new JsonSerializerOptions { WriteIndented = true }));
+
+        return action;
     }
 }
